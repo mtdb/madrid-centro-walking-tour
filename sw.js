@@ -1,4 +1,4 @@
-const CACHE = "madrid-centro-tour-v4-plaza-villa-copy";
+const CACHE = "madrid-centro-tour-v5-osmand-intent";
 const CORE = ["./", "./index.html", "./styles.css", "./src/app.js", "./manifest.webmanifest", "./icons/compass.svg"];
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE)).then(() => self.skipWaiting())));
 self.addEventListener("activate", (event) => event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)))).then(() => self.clients.claim())));
