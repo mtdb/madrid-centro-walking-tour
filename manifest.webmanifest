@@ -1,7 +1,7 @@
 {
   "name": "Madrid centro · paseo a pie",
   "short_name": "Madrid a pie",
-  "description": "Ruta circular autoguiada por el centro histórico de Madrid.",
+  "description": "Ruta circular autoguiada que cuenta la historia urbana de Madrid.",
   "lang": "es",
   "start_url": "./",
   "scope": "./",
