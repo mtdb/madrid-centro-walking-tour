@@ -81,6 +81,131 @@ if (callaoStop) {
   callaoStop.description = "Tras recorrer Gran Vía hacia el este, detente en Callao y entra en El Corte Inglés de Plaza de Callao, 2. La Gourmet Experience de la planta 9 es la pausa ideal para café, postre, una cerveza o una copa: no hace falta volver a comer después del mercado.";
 }
 
+// La ruta se lee como una historia urbana continua: de villa medieval a capital,
+// de ciudad cortesana a metrópolis moderna y, finalmente, a una ciudad global.
+const HISTORICAL_COPY = {
+  1: {
+    subtitle: "Acto I · la villa que se convierte en capital",
+    description: "Antes de ser una plaza monumental, este era el Arrabal: el mercado que crecía fuera de las murallas medievales. Cuando Felipe II fijó la corte en Madrid en 1561, aquel borde comercial quedó en el centro de una capital nueva. Juan Gómez de Mora lo ordenó desde 1617 y la plaza se inauguró en 1620. Mira los soportales como un escenario: aquí se vendía, se celebraba, se juzgaba y se representaba el poder.",
+    curiosity: "La Plaza Mayor fue plaza de toros y escenario de fiestas, juegos de cañas, autos de fe y ejecuciones públicas. No eran el mismo ritual: el auto de fe era una ceremonia religiosa y la ejecución, un castigo penal. Tres grandes incendios (1631, 1672 y 1790) obligaron a rehacerla varias veces.",
+    timeline: [
+      { date: "1561", label: "La corte llega a Madrid", text: "Felipe II fija aquí la capital y el antiguo arrabal empieza a transformarse en centro político." },
+      { date: "1620", label: "Plaza Mayor", text: "Se inaugura la gran plaza porticada bajo el reinado de Felipe III." },
+      { date: "1790", label: "Tercer incendio", text: "La reforma de Juan de Villanueva da a la plaza buena parte de su aspecto actual." }
+    ],
+    details: [{ kind: "look", label: "Lee la plaza", title: "Un teatro de la vida pública", text: "Sitúate frente a la Casa de la Panadería y observa las fachadas como gradas. La plaza estaba diseñada para que la multitud mirara hacia el centro y hacia los balcones.", extra: "Después baja por el Arco de Cuchilleros: saldrás del espacio oficial hacia la ladera de tabernas, almacenes y antiguas cavas." }]
+  },
+  2: {
+    subtitle: "Epílogo castizo · una ciudad que sigue comiendo",
+    description: "El Mesón del Champiñón es la última escena del paseo, cuando ya has visto cómo Madrid se hizo capital y metrópolis. Baja al número 17 de Cava de San Miguel y entra en una de esas bodegas que aprovechan el desnivel bajo la Plaza Mayor. Pide una cerveza y una ración para compartir: aquí la historia no está en un monumento, sino en la continuidad de la taberna como forma de vida urbana.",
+    curiosity: "El local abrió en 1964 y conserva la atmósfera abovedada de las cavas bajo la plaza. El champiñón al ajillo es sencillo, pero el ritual —barra, tapa y conversación— conecta con la cultura popular del centro.",
+    timeline: [
+      { date: "Siglos XVII–XIX", label: "Cavas y comercio", text: "La ladera bajo la plaza concentra almacenes, bodegas, tabernas y pequeños oficios." },
+      { date: "1964", label: "Mesón del Champiñón", text: "Abre el establecimiento que convirtió una antigua cava en una parada castiza del centro." },
+      { date: "Hoy", label: "Cierre del circuito", text: "Una tapa breve devuelve el paseo a la escala cotidiana, a pocos minutos del coche." }
+    ],
+    details: [{ kind: "context", label: "Cómo cerrar la historia", title: "La ciudad también se cuenta en una barra", text: "Reserva 20–30 minutos para una cerveza y los champiñones. Es un cierre deliberadamente pequeño después de palacios, plazas y avenidas.", extra: "Si conduces después, elige cerveza 0,0 o deja que conduzca otra persona." }]
+  },
+  3: {
+    subtitle: "Acto I · del mercado de abastos al mercado de experiencias",
+    description: "Al salir de la cava, el relato salta al Madrid del siglo XX. El Mercado de San Miguel nació en 1916 como mercado de abastos, cuando la ciudad necesitaba estructuras higiénicas y resistentes para vender alimentos en pleno centro. El hierro y el cristal hablan de esa modernización. Desde 2009 funciona como mercado gastronómico: el mismo impulso de abastecer a la ciudad, convertido en una experiencia para visitantes.",
+    curiosity: "Es uno de los pocos mercados de hierro de Madrid que conserva su estructura original. Su segunda vida no borra la primera: fíjate en la retícula, pensada para ordenar puestos, mercancías y circulación.",
+    timeline: [
+      { date: "1916", label: "Mercado de abastos", text: "Se inaugura la estructura metálica de Alfonso Dubé y Díez para el comercio cotidiano del barrio." },
+      { date: "2009", label: "Mercado gastronómico", text: "Reabre con puestos de producto y cocina preparada, anticipando el nuevo centro turístico." }
+    ],
+    details: [{ kind: "look", label: "Comer con contexto", title: "Primero recorre, después elige", text: "Mira cómo el edificio sigue siendo una máquina de circulación: entradas, pasillos, puestos y encuentros. Después comparte bacalao, croquetas, atún, ibéricos, quesos y un postre.", extra: "La comida es aquí una pausa narrativa: del abastecimiento de la capital a la gastronomía como ocio." }]
+  },
+  4: {
+    subtitle: "Acto I · la villa medieval que aún gobierna",
+    description: "Toma Conde de Miranda, la plaza del Conde de Barajas y la calle del Codo. En Plaza de la Villa aparece la escala de la Madrid medieval: antes de grandes avenidas y palacios, el gobierno se organizaba alrededor de una iglesia y unas pocas casas de linaje. La Casa y Torre de los Lujanes, la Casa de Cisneros y la antigua Casa de la Villa forman una pequeña lección de poder municipal.",
+    curiosity: "La plaza se llamó de San Salvador por la iglesia donde se reunía el concejo. El nombre recuerda que Madrid fue primero una villa con gobierno propio, mucho antes de ser capital de una monarquía global.",
+    timeline: [
+      { date: "1202", label: "Fuero de Madrid", text: "La villa aparece ya como comunidad organizada con normas y obligaciones propias." },
+      { date: "Siglos XV–XVI", label: "Casas de linaje", text: "Los Lujanes y Cisneros levantan torres y palacios junto al centro municipal." },
+      { date: "Siglo XVII", label: "Casa de la Villa", text: "El ayuntamiento se instala en un edificio representativo de la nueva capital de los Austrias." }
+    ],
+    details: [{ kind: "look", label: "Fíjate en esto", title: "La curva de la calle del Codo", text: "La estrechez y la curva conservan la escala anterior a la capital. No es un decorado: es la huella del trazado que la corte transformó sin borrar por completo.", extra: "Al salir hacia Calle Mayor, busca los restos de Santa María, otra capa del Madrid anterior a la catedral." }]
+  },
+  5: {
+    subtitle: "Acto II · una capital busca su catedral",
+    description: "Sigue por Calle Mayor hasta la Almudena. Madrid fue capital desde 1561, pero tardó siglos en tener una catedral propia: esa demora explica la mezcla de estilos y la larga construcción del templo. La primera piedra se colocó en 1883 y la consagración llegó en 1993. Desde la cornisa, la iglesia, el Palacio Real y el Campo del Moro forman una imagen precisa de la alianza entre ciudad, monarquía y religión.",
+    curiosity: "La fachada que mira al Palacio adopta una composición neoclásica para dialogar con el conjunto real; la cripta y la cabecera conservan un lenguaje neogótico más cercano al proyecto original.",
+    timeline: [
+      { date: "1883", label: "Primera piedra", text: "Comienza el proyecto de una catedral para la capital, junto al solar del antiguo alcázar." },
+      { date: "1885", label: "Diócesis de Madrid", text: "Madrid se convierte en diócesis independiente, reforzando la necesidad de una sede catedralicia." },
+      { date: "1993", label: "Consagración", text: "Juan Pablo II consagra la catedral después de un siglo de proyectos y pausas." }
+    ],
+    details: [{ kind: "look", label: "Lee el paisaje", title: "La capital desde su cornisa", text: "Mira al oeste: el Palacio Real ocupa el lugar del poder y la Casa de Campo abre la ciudad hacia el paisaje. La Almudena es el contrapunto religioso de esa composición.", extra: "Aquí basta con rodear el exterior; la visita interior es otra decisión de tiempo." }]
+  },
+  6: {
+    subtitle: "Acto II · del alcázar medieval al palacio borbónico",
+    description: "Cruza la Plaza de la Armería. Bajo el palacio actual estuvo el alcázar medieval y, después, la residencia de los Austrias. Un incendio destruyó el edificio en la Nochebuena de 1734; Felipe V decidió levantar una nueva imagen de la monarquía, más monumental y resistente al fuego. Juan Bautista Sacchetti continuó el proyecto de Filippo Juvarra y el palacio quedó terminado en 1755, ya bajo Fernando VI.",
+    curiosity: "El nuevo palacio se construyó casi por completo en piedra y ladrillo, sin madera estructural, como respuesta directa al incendio del antiguo alcázar. Carlos III lo convirtió en residencia estable de la corte.",
+    timeline: [
+      { date: "Siglos IX–XVII", label: "Alcázar y corte", text: "La fortaleza islámica y el alcázar de los Austrias hacen del promontorio el centro del poder madrileño." },
+      { date: "1734", label: "Incendio del Alcázar", text: "El fuego destruye la residencia de los Austrias durante la Nochebuena." },
+      { date: "1738–1755", label: "Palacio nuevo", text: "Los Borbones levantan el edificio actual como declaración de continuidad y renovación." }
+    ],
+    details: [{ kind: "look", label: "Fíjate en esto", title: "La fachada como mensaje", text: "Desde la Puerta del Príncipe, observa la escala y la regularidad del conjunto. Ya no es una fortaleza: es una máquina ceremonial para hacer visible la monarquía.", extra: "La Galería de las Colecciones Reales puede ampliar este capítulo, pero añade una visita interior completa." }]
+  },
+  7: {
+    subtitle: "Acto II · la monarquía convierte la ciudad en escenario",
+    description: "Sal del Palacio hacia Oriente y el Teatro Real. Esta plaza no es medieval: nació de una operación urbana que quiso abrir un gran espacio representativo frente a la residencia real. Fernando VII impulsó su ordenación en 1817; el Teatro Real comenzó a construirse en 1818 y abrió en 1850. Las esculturas de reyes, pensadas para coronar el palacio, terminaron repartidas por Madrid.",
+    curiosity: "La Plaza de Oriente resume una transformación decisiva: la ciudad deja de crecer solo alrededor de calles y parroquias y empieza a organizarse mediante ejes, perspectivas y espacios ceremoniales.",
+    timeline: [
+      { date: "1817", label: "Nueva plaza real", text: "Fernando VII ordena transformar el entorno del Palacio en un espacio monumental y ajardinado." },
+      { date: "1818–1850", label: "Teatro Real", text: "Se construye y abre el gran teatro de la corte frente al Palacio Real." }
+    ],
+    details: [{ kind: "look", label: "Fíjate en esto", title: "De la corte al paseo", text: "Rodea el Teatro Real y sigue por Ópera hacia Bailén. El eje cambia de escala: del escenario de la monarquía a la salida abierta hacia Debod.", extra: "La dirección importa: avanzas hacia el oeste ahora y regresarás por Gran Vía y Sol, sin deshacer el camino." }]
+  },
+  11: {
+    subtitle: "Acto II · Madrid entra en la historia global",
+    description: "El Templo de Debod introduce una ciudad distinta: la capital que participa en una operación internacional de salvamento patrimonial. En los años sesenta, la presa de Asuán amenazó monumentos de Nubia. España colaboró en la campaña de la UNESCO y en 1964 pidió que Debod fuera donado al país. Egipto lo entregó en 1968; no fue una compra en subasta, sino una donación diplomática entre los países que más contribuyeron al rescate.",
+    curiosity: "Egipto repartió varios templos entre países colaboradores —entre ellos Estados Unidos, Italia, Países Bajos y España—. Debod fue desmontado, trasladado y reconstruido piedra a piedra en Madrid entre 1970 y 1972.",
+    timeline: [
+      { date: "Siglo II a. C.", label: "Nace Debod", text: "El rey Adijalamani levanta el núcleo del templo nubio dedicado a Amón e Isis." },
+      { date: "1960–1968", label: "Salvamento de Nubia", text: "La campaña internacional de la UNESCO protege monumentos amenazados por la presa de Asuán." },
+      { date: "1972", label: "Debod en Madrid", text: "El templo reconstruido se abre al público junto al Parque del Oeste." }
+    ],
+    details: [{ kind: "look", label: "Cómo leer esta parada", title: "Un monumento fuera de lugar, pero no sin historia", text: "No hace falta esperar al atardecer. Mira el templo como testimonio de cooperación internacional, de ingeniería y de la nueva vocación cultural de Madrid.", extra: "Cruza hacia Plaza de España y continúa al este por Gran Vía: el regreso cuenta ahora la historia de la ciudad moderna." }]
+  },
+  10: {
+    subtitle: "Acto III · la ciudad se abre a la modernidad",
+    description: "Desde Plaza de España entra en Gran Vía y camina hacia el este. La avenida fue una operación de cirugía urbana: desde 1910 abrió un eje ancho entre calles estrechas, desplazó vecinos y negocios y creó una nueva fachada para la capital. El Edificio España, la Torre de Madrid, los cines y los teatros muestran cómo Madrid aprendió a vender espectáculo, consumo y velocidad.",
+    curiosity: "La Gran Vía no se construyó de una vez: sus tramos se abrieron por fases y cambiaron de nombre varias veces. La ciudad moderna es, también, una obra inacabada.",
+    timeline: [
+      { date: "1910", label: "Primera piedra", text: "Alfonso XIII inicia la apertura del gran eje que atraviesa el centro histórico." },
+      { date: "1929–1930", label: "Callao y rascacielos", text: "Los nuevos tramos consolidan una avenida de cines, hoteles, oficinas y grandes almacenes." },
+      { date: "Hoy", label: "Eje peatonal y cultural", text: "La avenida sigue funcionando como escaparate de la transformación urbana de Madrid." }
+    ],
+    details: [{ kind: "look", label: "Mira hacia arriba", title: "La ciudad como fachada", text: "Camina hacia Callao y compara las escalas: palacios comerciales, marquesinas, torres y anuncios. Cada edificio cuenta una versión distinta de la modernidad.", extra: "En Callao harás una pausa panorámica antes de bajar por Preciados hacia Sol." }]
+  },
+  9: {
+    subtitle: "Acto III · cine, consumo y la ciudad espectáculo",
+    description: "Callao concentra el Madrid de masas. El edificio Capitol, terminado en 1933, fue concebido como cine, hotel y oficinas; su neón convirtió la esquina en una imagen reconocible de la ciudad. Sube a la Gourmet Experience de El Corte Inglés: la terraza ofrece una lectura en altura de Gran Vía, una avenida nacida para el tráfico y convertida después en escenario de consumo, ocio y turismo.",
+    curiosity: "El Capitol combina una planta triangular, una torre escalonada y una gran pantalla curva: arquitectura, publicidad y cine se funden en un solo objeto urbano.",
+    timeline: [
+      { date: "1933", label: "Edificio Capitol", text: "Abre el complejo de cine, hotel y oficinas que fija la imagen moderna de Callao." },
+      { date: "Siglo XX", label: "Madrid de los cines", text: "Callao se convierte en uno de los grandes escaparates de ocio y publicidad de la capital." },
+      { date: "Hoy", label: "La ciudad en altura", text: "La terraza permite leer en una sola mirada el eje de Gran Vía y sus distintas épocas." }
+    ],
+    details: [{ kind: "look", label: "Pausa con perspectiva", title: "Una terraza para entender la avenida", text: "Desde la planta 9, alinea el Capitol, los teatros y el Edificio España. No es solo una vista: es la secuencia histórica de la Gran Vía.", extra: "Toma café, postre o una copa; la comida principal ya quedó atrás en San Miguel. El acceso y los horarios pueden variar." }]
+  },
+  8: {
+    subtitle: "Acto III · la plaza donde Madrid se hace política",
+    description: "Baja por Preciados hasta Sol, el gran nudo del centro. La plaza nació junto a una puerta de la cerca medieval, pero su forma actual pertenece a la ciudad borbónica y liberal: la Casa de Correos se levantó entre 1760 y 1768, y la plaza fue escenario de la revuelta del 2 de mayo de 1808, manifestaciones, celebraciones y protestas. Aquí la historia deja de ser palacio y se vuelve multitud.",
+    curiosity: "El Kilómetro Cero marca el origen convencional de las carreteras radiales; la placa está frente a la Casa de Correos, hoy sede de la Comunidad de Madrid. El metro llegó en 1919.",
+    timeline: [
+      { date: "1760–1768", label: "Casa de Correos", text: "El edificio de la plaza se convierte en una pieza clave de la administración borbónica." },
+      { date: "1808", label: "2 de mayo", text: "Sol y sus alrededores participan en la insurrección madrileña contra la ocupación napoleónica." },
+      { date: "1919", label: "Primer metro", text: "La primera línea conecta Sol con Cuatro Caminos y transforma la movilidad del centro." }
+    ],
+    details: [{ kind: "context", label: "Ritmo del cierre", title: "La plaza de la multitud", text: "Haz una vuelta breve por el perímetro: Correos, Kilómetro Cero, el Oso y el Madroño, Carlos III y el cartel de Tío Pepe.", extra: "Después sigue por Calle Mayor. Son unos 10–12 minutos hasta el Champiñón y pocos minutos más hasta el parking." }]
+  }
+};
+Object.entries(HISTORICAL_COPY).forEach(([id, copy]) => Object.assign(STOPS.find((stop) => stop.id === Number(id)), copy));
+
 const KEYS = { visited: "madrid-centro-tour:visited-stops", provider: "madrid-centro-tour:map-provider", optional: "madrid-centro-tour:include-gallery" };
 const read = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
 const write = (key, value) => localStorage.setItem(key, JSON.stringify(value));
