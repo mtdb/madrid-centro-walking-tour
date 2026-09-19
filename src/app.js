@@ -117,15 +117,15 @@ const HISTORICAL_COPY = {
     details: [{ kind: "look", label: "Comer con contexto", title: "Primero recorre, después elige", text: "Mira cómo el edificio sigue siendo una máquina de circulación: entradas, pasillos, puestos y encuentros. Después comparte bacalao, croquetas, atún, ibéricos, quesos y un postre.", extra: "La comida es aquí una pausa narrativa: del abastecimiento de la capital a la gastronomía como ocio." }]
   },
   4: {
-    subtitle: "Acto I · la villa medieval que aún gobierna",
-    description: "Toma Conde de Miranda, la plaza del Conde de Barajas y la calle del Codo. En Plaza de la Villa aparece la escala de la Madrid medieval: antes de grandes avenidas y palacios, el gobierno se organizaba alrededor de una iglesia y unas pocas casas de linaje. La Casa y Torre de los Lujanes, la Casa de Cisneros y la antigua Casa de la Villa forman una pequeña lección de poder municipal.",
-    curiosity: "La plaza se llamó de San Salvador por la iglesia donde se reunía el concejo. El nombre recuerda que Madrid fue primero una villa con gobierno propio, mucho antes de ser capital de una monarquía global.",
+    subtitle: "Acto I · antes de la capital, la ciudad que se gobierna",
+    description: "Este desvío no busca otra plaza bonita: busca el lugar donde Madrid conserva la memoria de su gobierno municipal. Junto a la antigua iglesia de San Salvador se reunía el concejo; alrededor quedan tres edificios que permiten leer la ciudad por capas: la Casa y Torre de los Lujanes, del siglo XV; la Casa de Cisneros, del XVI; y la antigua Casa de la Villa, del XVII, sede del Ayuntamiento hasta 2007. Plaza Mayor muestra a Madrid convertida en capital y escenario de la monarquía. Plaza de la Villa muestra la ciudad anterior: una comunidad medieval que se organizaba, administraba sus asuntos y conservaba sus propias élites y autoridades.",
+    curiosity: "Plaza Mayor cuenta cuándo Madrid se convierte en capital; Plaza de la Villa cuenta cómo se gobernaba antes de serlo.",
     timeline: [
-      { date: "1202", label: "Fuero de Madrid", text: "La villa aparece ya como comunidad organizada con normas y obligaciones propias." },
+      { date: "Siglo XV", label: "Noble y Leal Villa", text: "Madrid recibe el título que da nombre a la plaza y confirma su identidad como comunidad urbana." },
       { date: "Siglos XV–XVI", label: "Casas de linaje", text: "Los Lujanes y Cisneros levantan torres y palacios junto al centro municipal." },
-      { date: "Siglo XVII", label: "Casa de la Villa", text: "El ayuntamiento se instala en un edificio representativo de la nueva capital de los Austrias." }
+      { date: "1693–2007", label: "Casa de la Villa", text: "El edificio funciona como sede del Ayuntamiento durante más de tres siglos." }
     ],
-    details: [{ kind: "look", label: "Fíjate en esto", title: "La curva de la calle del Codo", text: "La estrechez y la curva conservan la escala anterior a la capital. No es un decorado: es la huella del trazado que la corte transformó sin borrar por completo.", extra: "Al salir hacia Calle Mayor, busca los restos de Santa María, otra capa del Madrid anterior a la catedral." }]
+    details: [{ kind: "context", label: "Cómo leerla", title: "Tres edificios, tres momentos de Madrid", text: "Mira la plaza de derecha a izquierda: los Lujanes representan el poder de los linajes medievales; la Casa de Cisneros, la aristocracia urbana del siglo XVI; y la Casa de la Villa, la institucionalización del gobierno municipal.", extra: "Después entra unos metros en la calle del Codo: su escala estrecha ayuda a imaginar la ciudad anterior a las grandes avenidas. La fachada de la Casa de Cisneros que mira a la plaza fue creada durante una restauración de comienzos del siglo XX; la fachada original se encuentra en la calle del Sacramento." }]
   },
   5: {
     subtitle: "Acto II · una capital busca su catedral",

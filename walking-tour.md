@@ -53,7 +53,13 @@ Toma el pequeño desvío que evita repetir Calle Mayor:
 
 Busca la Casa de la Villa, la Casa y Torre de los Lujanes y la Casa de Cisneros.
 
-Aquí reaparece la villa anterior a la capital. La plaza se formó junto a San Salvador, centro del gobierno municipal, y conserva casas de linaje de los siglos XV y XVI.
+Este desvío no busca otra plaza bonita: busca el lugar donde Madrid conserva la memoria de su gobierno municipal. Junto a la antigua iglesia de San Salvador se reunía el concejo; alrededor quedan tres edificios que permiten leer la ciudad por capas: la Casa y Torre de los Lujanes, del siglo XV; la Casa de Cisneros, del XVI; y la antigua Casa de la Villa, del XVII, sede del Ayuntamiento hasta 2007.
+
+Plaza Mayor muestra a Madrid convertida en capital y escenario de la monarquía. Plaza de la Villa muestra la ciudad anterior: una comunidad medieval que se organizaba, administraba sus asuntos y conservaba sus propias élites y autoridades. La frase para contarla es sencilla: **Plaza Mayor cuenta cuándo Madrid se convierte en capital; Plaza de la Villa cuenta cómo se gobernaba antes de serlo.**
+
+Mira la plaza de derecha a izquierda: los Lujanes representan el poder de los linajes medievales; la Casa de Cisneros, la aristocracia urbana del siglo XVI; y la Casa de la Villa, la institucionalización del gobierno municipal. Después entra unos metros en la calle del Codo: su escala estrecha ayuda a imaginar la ciudad anterior a las grandes avenidas.
+
+La fachada de la Casa de Cisneros que mira a la plaza fue creada durante una restauración de comienzos del siglo XX; la fachada original se encuentra en la calle del Sacramento.
 
 ### 4. Plaza de la Villa → Almudena y Cornisa
 
