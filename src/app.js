@@ -41,7 +41,7 @@ const IMAGE_URLS = {
   11: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Templo_de_Debod_-_01.jpg",
   12: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Galeria_de_las_Colecciones_Reales_-_Madrid_02.jpg"
 };
-const ROUTE_ORDER = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 2];
+const ROUTE_ORDER = [1, 3, 4, 5, 6, 7, 11, 10, 9, 8, 2];
 const mesonStop = STOPS.find((stop) => stop.id === 2);
 if (mesonStop) {
   mesonStop.subtitle = "Cierre gastronómico · junto al parking";
@@ -50,7 +50,35 @@ if (mesonStop) {
 }
 const debodStop = STOPS.find((stop) => stop.id === 11);
 if (debodStop) {
-  debodStop.details = [{ kind: "look", label: "Regreso y cierre gastronómico", title: "Vuelve por una línea distinta", text: "Desde Debod: Plaza de España → Leganitos → Santo Domingo → Campomanes → Arrieta → Ópera → Vergara → Ramales → Santiago → Milaneses → Calle Mayor → Plaza Mayor.", extra: "Son aproximadamente 30–35 minutos. Al llegar a Plaza Mayor, baja por el Arco de Cuchilleros hasta Cava de San Miguel para terminar en el Mesón del Champiñón.", prompt: "Siguiente: Mesón del Champiñón, junto al parking." }];
+  debodStop.subtitle = "Parada intermedia · Parque del Oeste";
+  debodStop.description = "Llega al Templo de Debod desde el entorno del Palacio por Bailén, la Cuesta de San Vicente y el Paseo de Rosales. El templo y el parque funcionan aquí como una pausa abierta antes de volver a entrar en la ciudad por Plaza de España.";
+  debodStop.details = [{ kind: "look", label: "Cómo continuar", title: "Sal hacia Plaza de España", text: "Rodea el templo y cruza el Parque del Oeste hacia Ferraz y Plaza de España. No hace falta esperar al atardecer: esta parada funciona igual de bien como mirador y descanso durante el día.", extra: "Desde Plaza de España continúa hacia el este por Gran Vía, Callao, Preciados y Sol. El circuito termina cerca del parking, no en Debod." }];
+}
+const operaStop = STOPS.find((stop) => stop.id === 7);
+if (operaStop) {
+  operaStop.name = "Plaza de Oriente, Teatro Real y Ópera";
+  operaStop.shortName = "Oriente / Ópera";
+  operaStop.subtitle = "Real sitio · conexión hacia Debod";
+  operaStop.description = "Sal del Palacio hacia la Plaza de Oriente y el Teatro Real. Después pasa por Ópera y toma Bailén hacia la Cuesta de San Vicente y el Paseo de Rosales: así el recorrido avanza hacia Debod sin bajar por Arenal ni volver después sobre sus pasos.";
+  operaStop.details = [{ kind: "look", label: "Fíjate en esto", title: "Tres plazas, una transición", text: "Plaza de Oriente, Ópera y Bailén cambian la escala del paseo: del espacio ceremonial del Palacio a la salida hacia el parque y Debod.", extra: "La calle Arenal y Puerta del Sol quedan para el tramo posterior, después de Gran Vía y Callao." }];
+}
+const solStop = STOPS.find((stop) => stop.id === 8);
+if (solStop) {
+  solStop.name = "Puerta del Sol";
+  solStop.shortName = "Sol";
+  solStop.subtitle = "Último tramo urbano · regreso al centro";
+  solStop.description = "Desde Callao baja por Preciados hasta la Puerta del Sol. Haz una vuelta breve por la Real Casa de Correos, el Kilómetro Cero, el Oso y el Madroño, el cartel de Tío Pepe y Carlos III antes de continuar por Calle Mayor hacia Plaza Mayor.";
+  solStop.details = [{ kind: "context", label: "Ritmo del cierre", title: "Ya estás cerca del coche", text: "Sol es la última gran plaza del paseo. Desde aquí son aproximadamente 10–12 minutos hasta el Mesón del Champiñón y pocos minutos más hasta el parking.", extra: "Si vas justo de tiempo, Sol puede hacerse en una vuelta rápida sin añadir otro desvío." }];
+}
+const granViaStop = STOPS.find((stop) => stop.id === 10);
+if (granViaStop) {
+  granViaStop.subtitle = "Plaza de España → Gran Vía · dirección este";
+  granViaStop.description = "Desde Plaza de España entra en Gran Vía y camina hacia el este. Quédate con el Edificio España, la Torre de Madrid, los teatros y la secuencia de fachadas que conduce hasta Callao.";
+  granViaStop.details = [{ kind: "look", label: "Fíjate en esto", title: "Una avenida en dirección al centro", text: "El tramo se entiende mejor caminando hacia Callao: los edificios cambian de escala y la ciudad se vuelve cada vez más comercial.", extra: "Al llegar a Callao, entra en El Corte Inglés si la Gourmet Experience está abierta; después continúa por Preciados hasta Sol." }];
+}
+const callaoStop = STOPS.find((stop) => stop.id === 9);
+if (callaoStop) {
+  callaoStop.description = "Tras recorrer Gran Vía hacia el este, detente en Callao y entra en El Corte Inglés de Plaza de Callao, 2. La Gourmet Experience de la planta 9 es la pausa ideal para café, postre, una cerveza o una copa: no hace falta volver a comer después del mercado.";
 }
 
 const KEYS = { visited: "madrid-centro-tour:visited-stops", provider: "madrid-centro-tour:map-provider", optional: "madrid-centro-tour:include-gallery" };

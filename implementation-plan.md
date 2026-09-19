@@ -58,25 +58,40 @@ La web no será una aplicación de mapas completa. El contenido, las fotografía
 
 ## Alcance de la primera versión
 
-### Recorrido base
+### Recorrido base revisado
 
-La ruta base debe seguir este orden y no requerir volver sobre sus pasos salvo el tramo corto inevitable entre el Templo de Debod y Plaza de España. El Mesón del Champiñón se reserva para el cierre, porque queda junto al parking y funciona mejor como cerveza y tapa de tarde-noche:
+La prioridad revisada es que el circuito termine cerca del coche. Debod deja de ser el final y se convierte en una parada intermedia; el tramo final será urbano, descendente y corto desde Sol hasta el Mesón del Champiñón y el parking.
 
 1. Parking y Plaza Mayor.
 2. Mercado de San Miguel.
 3. Plaza de la Villa y calles del Madrid de los Austrias.
 4. Catedral de la Almudena, Plaza de la Armería y Mirador de la Cornisa.
 5. Palacio Real.
-6. Plaza de Oriente y Teatro Real.
-7. Ópera, calle Arenal y Puerta del Sol.
-8. Callao y Gourmet Experience de El Corte Inglés.
-9. Gran Vía y Plaza de España.
-10. Templo de Debod.
-11. Regreso a Plaza Mayor y cierre en el Mesón del Champiñón.
+6. Plaza de Oriente, Teatro Real y Ópera como un único conjunto.
+7. Templo de Debod y Parque del Oeste, llegando por Bailén/Cuesta de San Vicente/Paseo de Rosales.
+8. Plaza de España y Gran Vía, en dirección este.
+9. Callao y Gourmet Experience de El Corte Inglés.
+10. Puerta del Sol, llegando por Preciados.
+11. Mesón del Champiñón y parking de Plaza Mayor.
 
-El regreso al parking se documentará dentro de Debod y la última parada incluirá el cierre gastronómico en Cava de San Miguel, con este trazado recomendado:
+El trazado recomendado es:
 
-`Templo de Debod → Plaza de España → Leganitos → Santo Domingo → Campomanes → Arrieta → Ópera → Vergara → Ramales → Santiago → Milaneses → Calle Mayor → Plaza Mayor → Arco de Cuchilleros → Cava de San Miguel`
+`Plaza Mayor → Mercado de San Miguel → Plaza de la Villa → Almudena → Palacio Real → Plaza de Oriente/Ópera → Cuesta de San Vicente → Debod → Plaza de España → Gran Vía → Callao → Preciados → Sol → Calle Mayor → Plaza Mayor → Cava de San Miguel`
+
+Así no se reserva Debod para el atardecer ni se obliga al visitante a caminar 30–35 minutos después de la última parada monumental. Desde Sol hasta el Mesón son aproximadamente 10–12 minutos; desde el Mesón, el parking queda a pocos minutos. La puesta de sol en Debod será una posibilidad, no el eje temporal del paseo.
+
+La calle Arenal deja de ser una parada específica: obligaría a volver hacia Ópera o a desviar el circuito. Ópera se conserva integrada en el conjunto Plaza de Oriente–Teatro Real y como conexión hacia Debod.
+
+### Cambios de implementación derivados de la revisión
+
+- `src/app.js`: cambiar el orden visible a `[Plaza Mayor, Mercado, Villa, Almudena, Palacio, Oriente/Ópera, Debod, Gran Vía/Plaza de España, Callao, Sol, Champiñón]` mediante `ROUTE_ORDER`.
+- `src/app.js`: convertir la actual parada “Ópera, Arenal y Sol” en “Puerta del Sol” y trasladar Ópera al subtítulo/detalle de Plaza de Oriente; eliminar Arenal como destino de navegación.
+- `src/app.js`: cambiar Debod de parada final a parada con siguiente destino Plaza de España; retirar su bloque especial de regreso al parking.
+- `src/app.js`: mantener el Mesón como última parada y conservar su acción `Volver al parking`; el GPX debe seguir el nuevo orden.
+- `index.html`: sustituir las menciones a Debod como final por “parada intermedia” y explicar que el circuito termina junto al coche.
+- `walking-tour.md`: reescribir el itinerario y el horario hacia atrás desde la hora prevista de salida, no desde la puesta de sol; dejar Debod como visita flexible.
+- `implementation-plan.md`: conservar la Galería opcional después del Palacio y verificar que no desplace la llegada a Debod/Plaza de España fuera de los horarios de Callao.
+- Pruebas: revisar enlaces “siguiente”, progreso, numeración, GPX, paradas visitadas y navegación final con y sin Galería activa.
 
 La distancia, duración, pendientes y tiempos de visita deben presentarse como estimaciones, no como una promesa exacta. El plan editorial debe distinguir entre paseo exterior, comida y visita interior del Palacio Real.
 
@@ -183,7 +198,7 @@ Conservar la jerarquía probada del referente:
    - Botón “Empezar la ruta”.
    - Introducción histórica breve: Madrid de los Austrias, capital de los Borbones y eje moderno de Gran Vía.
    - Línea temporal corta, sin convertirla en una clase de historia.
-   - Introducción del recorrido circular y aviso de que Debod es el mejor punto para el atardecer.
+   - Introducción del recorrido circular y aviso de que Debod es una pausa intermedia, no el final obligatorio.
    - `div[data-stops]` para las paradas dinámicas.
 3. `footer`
    - Cierre con el regreso al parking.
@@ -213,7 +228,7 @@ El estado mínimo será `{ visited, provider, optional, active }`. Al activar la
 
 - `place`: abrir el punto actual en Google Maps, OsmAnd o `geo:`/copiar coordenadas.
 - `navigate`: abrir navegación peatonal hacia la siguiente parada.
-- `return`: acción específica del cierre gastronómico hacia el parking de Plaza Mayor; Debod debe explicar antes el regreso hasta Cava de San Miguel.
+- `return`: acción específica del cierre gastronómico hacia el parking de Plaza Mayor. Debod tendrá navegación normal hacia Plaza de España; ya no debe contener un bloque de regreso al parking.
 - Conservar `ask` como opción persistente para que el usuario pueda elegir aplicación la primera vez.
 - Verificar que el enlace de Google Maps tenga `travelmode=walking`.
 - El GPX debe contener todos los waypoints visibles en el orden real, incluyendo la Galería si está activa.
@@ -225,7 +240,7 @@ Reutilizar `stopTemplate()` con estos ajustes:
 - Etiquetas de parada en español y número visible.
 - El bloque “Siguiente” debe indicar también distancia o tiempo al siguiente punto cuando esté disponible.
 - La última parada debe mostrar “Volver al parking” después del cierre en el Mesón, en vez de “Fin del paseo” sin acción.
-- Añadir detalles específicos para: comida en San Miguel, cierre de cerveza y champiñones, acceso a la terraza de Callao, atardecer de Debod y regreso.
+- Añadir detalles específicos para: comida en San Miguel, Debod como parada intermedia, acceso a la terraza de Callao y cierre de cerveza y champiñones.
 - Sanitizar o mantener estático todo contenido interpolado; no aceptar HTML introducido por el usuario.
 
 ### Interacción y rendimiento
@@ -241,7 +256,7 @@ Reutilizar `stopTemplate()` con estos ajustes:
 - Paleta base: conservar papel/tinta de Alcalá y usar acentos inspirados en piedra, terracota, verde de jardines y azul de cielo.
 - Paradas gastronómicas: usar una variación cálida, no fotografías saturadas de comida que rompan el carácter histórico.
 - Callao y Gran Vía: reservar el acento azul/gris o una imagen nocturna únicamente si mantiene suficiente contraste para texto.
-- Debod: usar un bloque final con más espacio negativo y texto orientado al atardecer.
+- Debod: usar un bloque intermedio de descanso y orientación hacia Plaza de España; el atardecer queda como posibilidad, no como requisito.
 - Mantener la alternancia de paradas, pero verificar contraste WCAG en cada combinación de fondo, tinta y acento.
 
 ## Fuentes y verificación editorial
@@ -301,8 +316,8 @@ Los enlaces oficiales deben vivir en cada parada y las fuentes de fotografías e
 ### Contenido y ruta
 
 - La ruta visible coincide con el circuito aprobado y no introduce retrocesos innecesarios.
-- Plaza Mayor, Mercado, Austrias, Almudena, Palacio, Oriente, Sol, Callao, Gran Vía, Plaza de España, Debod y el cierre en el Champiñón aparecen en el orden correcto.
-- Debod explica el regreso por Leganitos/Santo Domingo/Ópera hasta Plaza Mayor; el cierre en el Champiñón permite navegar después al parking.
+- Plaza Mayor, Mercado, Austrias, Almudena, Palacio, Oriente/Ópera, Debod, Plaza de España, Gran Vía, Callao, Sol y Champiñón aparecen en el orden correcto.
+- La última parada está a pocos minutos del parking y permite navegar hasta él; Debod no contiene un regreso largo al coche.
 - Los datos de horarios, precios y accesos llevan fuente o advertencia de verificación.
 
 ### Producto
