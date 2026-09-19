@@ -216,8 +216,17 @@ function renumberStops() { document.querySelectorAll("[data-stop-id]").forEach((
 
 function googlePlace(stop) { return `https://www.google.com/maps/search/?api=1&query=${stop.coordinates.lat},${stop.coordinates.lng}`; }
 function googleDirections(from, to) { const origin = from ? `&origin=${from.coordinates.lat},${from.coordinates.lng}` : ""; return `https://www.google.com/maps/dir/?api=1${origin}&destination=${to.coordinates.lat},${to.coordinates.lng}&travelmode=walking`; }
-function osmandPoint(stop) { return `https://osmand.net/map/?pin=${stop.coordinates.lat},${stop.coordinates.lng}#18/${stop.coordinates.lat}/${stop.coordinates.lng}`; }
-function osmandNavigate(to) { return `https://osmand.net/map/navigate/?finish=${to.coordinates.lat},${to.coordinates.lng}&type=osmand&profile=pedestrian`; }
+function isAndroid() { return /Android/i.test(navigator.userAgent); }
+function osmandPoint(stop) {
+  const coordinates = `${stop.coordinates.lat},${stop.coordinates.lng}`;
+  // OsmAnd registers its own Android geo intent. The web URL is retained for desktop/iOS.
+  return isAndroid() ? `osmand.geo:${coordinates}` : `https://osmand.net/map/?pin=${coordinates}#18/${coordinates}`;
+}
+function osmandNavigate(to) {
+  const coordinates = `${to.coordinates.lat},${to.coordinates.lng}`;
+  // This is the Android app's navigation intent, so Chrome does not turn it into a web visit.
+  return isAndroid() ? `osmand.navigation:q=${coordinates}` : `https://osmand.net/map/navigate/?finish=${coordinates}&type=osmand&profile=pedestrian`;
+}
 function mapUrl(action, stop, next) { if (state.provider === "osmand") return action === "place" ? osmandPoint(stop) : osmandNavigate(next || stop); return action === "place" ? googlePlace(stop) : googleDirections(null, next || stop); }
 function imageFigure(stop) { const image = IMAGE_URLS[stop.id] || stop.image; if (!image) return `<div class="stop__image stop__image--fallback" data-mark="${String(stop.id).padStart(2, "0")}" aria-hidden="true"></div>`; const credit = stop.imageCredit ? ` · Foto: <a href="${stop.imageCredit.url}" target="_blank" rel="noreferrer">${stop.imageCredit.author}</a>` : ""; return `<figure class="stop__image"><img src="${image}" alt="${stop.alt}" loading="lazy" width="${stop.imageWidth || 1600}" height="${stop.imageHeight || 1067}" data-parallax /><figcaption>${stop.name}${credit}</figcaption></figure>`; }
 function stopTemplate(stop, index, visible) {
