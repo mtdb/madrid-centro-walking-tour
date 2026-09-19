@@ -1,21 +1,22 @@
 # Walking tour por Madrid centro
 
-Ruta circular desde el aparcamiento de Plaza Mayor por el Madrid de los Austrias, el Palacio Real, Sol, Gran Vía, Plaza de España y el Templo de Debod.
+Ruta circular desde el aparcamiento de Plaza Mayor por el Madrid de los Austrias, el Palacio Real, Sol, Gran Vía y el Templo de Debod. El Mesón del Champiñón queda para el final: una cerveza y una ración para cerrar el paseo junto al coche.
 
 ## Resumen
 
 - **Inicio y final:** parking de Plaza Mayor
-- **Distancia estimada:** 5–6 km
-- **Duración sin visitar el Palacio Real:** 6–7 horas con comida y paradas
-- **Duración visitando el Palacio Real:** 7,5–8,5 horas
+- **Distancia estimada:** 5–6 km de paseo, más el pequeño tramo final hasta el Mesón
+- **Duración sin visitar interiores:** 6–7 horas con comida, terraza y paradas
+- **Duración con Palacio Real o Galería:** 7,5–9 horas
 - **Mejor final:** Templo de Debod entre 30 y 45 minutos antes de la puesta de sol
-- **Vehículo:** etiqueta ECO, apto para acceder a Distrito Centro
+- **Cierre gastronómico:** Mesón del Champiñón, Cava de San Miguel, 17
+- **Vehículo:** etiqueta ECO, apto para acceder a Distrito Centro; comprobar siempre las condiciones del parking
 
 ## Itinerario
 
 ### 1. Parking de Plaza Mayor → Plaza Mayor
 
-Después de dejar el coche, recorrer la plaza antes de bajar hacia Cava de San Miguel.
+Después de dejar el coche, recorre la plaza antes de dirigirte al Mercado de San Miguel.
 
 Puntos de interés:
 
@@ -23,51 +24,26 @@ Puntos de interés:
 - Estatua ecuestre de Felipe III.
 - Arco de Cuchilleros.
 
-### 2. Plaza Mayor → Mesón del Champiñón
+### 2. Plaza Mayor → Mercado de San Miguel
 
-Bajar por el Arco de Cuchilleros hasta el **Mesón del Champiñón**, en Cava de San Miguel, 17.
+Baja por Cava de San Miguel y entra al mercado para la comida principal. Conviene llegar antes de las 13:30 si se quiere encontrar sitio con menos dificultad.
 
-Tomarlo como aperitivo, no como comida completa:
+Propuesta para dos personas:
 
-- Una ración de champiñones para compartir.
-- Vermut, cerveza o sangría.
-- Parada recomendada: 20–30 minutos.
-
-### 3. Mesón del Champiñón → Mercado de San Miguel
-
-Continuar hacia el norte por Cava de San Miguel. El mercado queda a pocos minutos y no es necesario desandar el camino.
-
-Propuesta para comer compartiendo tapas de diferentes puestos:
-
-- **La Casa del Bacalao:** bacalao o anchoas.
-- **El Señor Martín:** calamares o fritura de pescado.
-- **Arzábal Croquetería:** croquetas.
-- **Tatún:** atún rojo de almadraba.
-- **MAS Gourmets / Carrasco Ibéricos:** jamón ibérico.
-- **Quesoba:** quesos artesanos.
-- **La Hora del Vermut:** vermut, aceitunas o banderillas.
-- **Daniel Sorlut:** ostras.
-- **Paella by Rodrigo de la Calle:** arroz.
-- **Madreamiga o Fuerza: La Hojaldrería:** algo dulce para compartir.
-
-Para dos personas, una comida equilibrada podría ser:
-
-- Dos tapas de bacalao.
+- Bacalao o anchoas.
 - Una ración de croquetas.
-- Una tapa de atún o una fritura.
-- Una tabla pequeña de ibéricos o quesos.
+- Atún rojo o fritura.
+- Tabla pequeña de ibéricos o quesos.
 - Dos vermuts o copas de vino.
 - Un postre para compartir.
 
-Presupuesto orientativo: **25–40 € por persona**. Para encontrar sitio con mayor facilidad, conviene llegar antes de las 13:30 o entre las 16:00 y las 18:30.
+Presupuesto orientativo: **25–40 € por persona**. La oferta de puestos puede cambiar.
 
-### 4. Mercado de San Miguel → Plaza de la Villa
+### 3. Mercado de San Miguel → Plaza de la Villa
 
-En lugar de recorrer únicamente Calle Mayor, entrar brevemente en las calles del Madrid de los Austrias:
+Para no repetir Calle Mayor, toma este pequeño desvío:
 
 **Plaza de San Miguel → calle Conde de Miranda → plaza del Conde de Barajas → calle del Codo → Plaza de la Villa**
-
-Este pequeño desvío añade pocos minutos y permite ver un entorno histórico mucho más interesante.
 
 En Plaza de la Villa:
 
@@ -75,35 +51,25 @@ En Plaza de la Villa:
 - Casa y Torre de los Lujanes.
 - Casa de Cisneros.
 
-### 5. Plaza de la Villa → Catedral de la Almudena
+### 4. Plaza de la Villa → Catedral de la Almudena
 
-Continuar hacia el oeste por Calle Mayor.
+Continúa hacia el oeste por Calle Mayor. Puedes localizar los restos de la antigua iglesia de Santa María y acercarte a la muralla árabe antes de llegar a la Catedral de la Almudena.
 
-Paradas posibles:
+Rodea el exterior, cruza la Plaza de la Armería y termina en el Mirador de la Cornisa, con vistas hacia Campo del Moro y la Casa de Campo.
 
-- Restos de la antigua iglesia de Santa María.
-- Muralla árabe, con un pequeño desvío opcional.
-- Catedral de la Almudena.
-- Plaza de la Armería.
-- Mirador de la Cornisa, con vistas hacia Campo del Moro y Casa de Campo.
+### 5. Almudena → Palacio Real
 
-### 6. Almudena → Palacio Real → Plaza de Oriente
+Para una visita exterior, reserva 25–35 minutos. Para entrar al Palacio Real, calcula aproximadamente 90 minutos incluyendo controles y recorrido. Comprueba entradas, horarios y posibles cierres por actos oficiales.
 
-Seguir este orden para evitar retrocesos:
+La Galería de las Colecciones Reales puede añadirse aquí como visita opcional, pero no conviene combinarla con una visita interior larga al Palacio si se quiere llegar con calma a Debod.
 
-**Catedral de la Almudena → Plaza de la Armería → Palacio Real → Plaza de Oriente**
+### 6. Palacio Real → Plaza de Oriente → Ópera
 
-- Para una visita exterior, reservar 25–35 minutos.
-- Para visitar el interior del Palacio Real, reservar aproximadamente 90 minutos incluyendo acceso y controles.
-- Los Jardines de Sabatini son opcionales. Exigen bajar y volver a subir, por lo que pueden omitirse si se quiere conservar tiempo y energía.
+Sal del Palacio hacia la Plaza de Oriente y el Teatro Real. Continúa por Isabel II hasta Ópera. Las esculturas de reyes y los jardines forman una transición clara entre el espacio cortesano y el centro urbano.
 
-### 7. Plaza de Oriente → Ópera → Puerta del Sol
+### 7. Ópera → calle Arenal → Puerta del Sol
 
-Recorrido:
-
-**Plaza de Oriente → Teatro Real → Plaza de Isabel II/Ópera → calle Arenal → iglesia de San Ginés → Puerta del Sol**
-
-En Puerta del Sol:
+Baja por la calle Arenal y busca la iglesia de San Ginés. En Puerta del Sol localiza:
 
 - Kilómetro Cero.
 - Real Casa de Correos.
@@ -111,76 +77,64 @@ En Puerta del Sol:
 - Cartel de Tío Pepe.
 - Estatua ecuestre de Carlos III.
 
+Haz una vuelta breve por la plaza y sube por Preciados hacia Callao.
+
 ### 8. Puerta del Sol → Callao → terraza de El Corte Inglés
 
-Subir desde Sol por la calle Preciados hasta Callao. Entrar en El Corte Inglés de **Plaza de Callao, 2** y subir al **Gourmet Experience de la planta 9**.
+Entra en El Corte Inglés de Plaza de Callao, 2, y sube a la **Gourmet Experience de la planta 9**. Es una parada para café, postre, cerveza, vino o una copa, no una segunda comida.
 
-La terraza ofrece vistas hacia Gran Vía y el edificio Capitol. Es una buena parada para:
-
-- Café o postre.
-- Cerveza, vino o cóctel.
-- Fotografías panorámicas.
-
-Duración recomendada: 30–45 minutos. No es necesario volver a comer después del Mesón y el Mercado de San Miguel.
+Duración recomendada: 30–45 minutos. El acceso y los horarios pueden variar.
 
 ### 9. Callao → Gran Vía → Plaza de España
 
-Desde Callao, caminar por Gran Vía hacia el oeste.
-
-Puntos de interés:
-
-- Edificio Capitol o Carrión.
-- Teatros de Gran Vía.
-- Edificio España.
-- Torre de Madrid.
-- Monumento a Cervantes en Plaza de España.
+Camina hacia el oeste por Gran Vía. Fíjate en el edificio Capitol, los teatros, el Edificio España y la Torre de Madrid. En Plaza de España, detente ante el monumento a Cervantes antes de continuar hacia Debod.
 
 ### 10. Plaza de España → Templo de Debod
 
-Cruzar Plaza de España y continuar por el paseo peatonal hacia el Templo de Debod.
+Esta es la última parada monumental. Conviene llegar entre **30 y 45 minutos antes de la puesta de sol** para rodear el templo y encontrar un buen punto de vista hacia el oeste.
 
-Esta debe ser la última parada principal. Para disfrutar del atardecer, llegar entre **30 y 45 minutos antes de la puesta de sol**.
+### 11. Debod → Plaza Mayor → Mesón del Champiñón
 
-## Regreso al parking sin repetir la ruta
+Regresa sin desandar Gran Vía ni Arenal:
 
-Para evitar volver por Gran Vía, calle Arenal o Plaza de Oriente:
+**Templo de Debod → Plaza de España → Leganitos → plaza de Santo Domingo → calle Campomanes → calle Arrieta → Ópera → calle Vergara → plaza de Ramales → calle Santiago → calle Milaneses → Calle Mayor → Plaza Mayor**
 
-**Templo de Debod → Plaza de España → calle Leganitos → plaza de Santo Domingo → calle Campomanes → calle Arrieta → Ópera → calle Vergara → plaza de Ramales → calle Santiago → calle Milaneses → Calle Mayor → Plaza Mayor**
+El regreso requiere aproximadamente **30–35 minutos**. Desde Plaza Mayor baja por el Arco de Cuchilleros hasta **Cava de San Miguel, 17**, para terminar en el Mesón del Champiñón.
 
-Este regreso:
+La parada funciona mejor como cierre de 20–30 minutos:
 
-- Solo repite el corto tramo entre Debod y Plaza de España.
-- Evita volver a caminar por Gran Vía.
-- Evita repetir calle Arenal y Plaza de Oriente.
-- Pasa por la tranquila plaza de Ramales, relacionada con el lugar donde fue enterrado Velázquez.
-- Requiere aproximadamente 30–35 minutos.
+- Una ración de champiñones para compartir.
+- Una cerveza, vermut o bebida sin alcohol.
+- Ambiente castizo de tarde-noche.
+
+El local puede llenarse y los horarios deben confirmarse antes de salir. Si conduces después, elige cerveza 0,0 o deja que conduzca otra persona.
 
 ## Horario orientativo
 
-El horario debe calcularse hacia atrás desde la puesta de sol.
+Calcula el día hacia atrás desde la puesta de sol:
 
 | Momento aproximado | Actividad |
 |---|---|
 | Puesta de sol − 7 h | Aparcar y visitar Plaza Mayor |
-| Puesta de sol − 6 h 30 min | Mesón del Champiñón |
-| Puesta de sol − 6 h | Mercado de San Miguel |
-| Puesta de sol − 4 h 45 min | Plaza de la Villa y Almudena |
-| Puesta de sol − 4 h | Palacio Real y Plaza de Oriente |
+| Puesta de sol − 6 h 30 min | Mercado de San Miguel |
+| Puesta de sol − 5 h 15 min | Plaza de la Villa y Almudena |
+| Puesta de sol − 4 h 30 min | Palacio Real y Plaza de Oriente |
 | Puesta de sol − 2 h 30 min | Ópera, Arenal y Puerta del Sol |
 | Puesta de sol − 1 h 45 min | Callao y terraza de El Corte Inglés |
 | Puesta de sol − 1 h | Gran Vía y Plaza de España |
 | Puesta de sol − 45 min | Llegada al Templo de Debod |
-| Después del atardecer | Regreso al parking por Santo Domingo y Ópera |
+| Después del atardecer | Regreso y Mesón del Champiñón |
 
 Si se visita el interior del Palacio Real, comenzar entre 60 y 90 minutos antes de lo indicado.
 
 ## Recomendaciones prácticas
 
-- Llevar calzado cómodo: aunque la distancia es moderada, hay adoquines, pendientes y muchas horas de pie.
+- Llevar calzado cómodo: hay adoquines, pendientes y muchas horas de pie.
 - Reservar con antelación la entrada al Palacio Real.
-- Comprobar posibles cierres del Palacio Real por actos oficiales.
-- Revisar la hora exacta de la puesta de sol para planificar la llegada a Debod.
-- No intentar visitar en profundidad el Palacio Real, la cúpula de la Almudena y la Galería de las Colecciones Reales el mismo día: convertiría el paseo en una carrera.
+- Comprobar cierres del Palacio Real, horarios de la Galería y acceso a la terraza de Callao.
+- Consultar el horario del Mesón el mismo día; puede cambiar y suele llenarse.
+- Revisar la hora exacta de la puesta de sol.
+- No intentar visitar en profundidad Palacio, Almudena y Galería el mismo día si se quiere disfrutar del paseo.
 - El parking de Plaza Mayor tiene un gálibo aproximado de 1,85 m; comprobarlo si el vehículo es alto.
 
 ## Enlaces útiles
@@ -189,4 +143,5 @@ Si se visita el interior del Palacio Real, comenzar entre 60 y 90 minutos antes 
 - [Mercado de San Miguel](https://mercadodesanmiguel.es/)
 - [Catedral de la Almudena](https://www.catedraldelaalmudena.es/)
 - [El Corte Inglés Preciados-Callao](https://www.elcorteingles.es/centroscomerciales/es/eci/centros/centro-comercial-preciados-callao)
+- [Mesón del Champiñón](https://mesondelchampinon.com/)
 - [Aparcamiento de Plaza Mayor](https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Circulacion-y-aparcamiento/Aparcamiento-mixto-Plaza-Mayor/)

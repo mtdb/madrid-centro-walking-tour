@@ -60,23 +60,23 @@ La web no será una aplicación de mapas completa. El contenido, las fotografía
 
 ### Recorrido base
 
-La ruta base debe seguir este orden y no requerir volver sobre sus pasos salvo el tramo corto inevitable entre el Templo de Debod y Plaza de España:
+La ruta base debe seguir este orden y no requerir volver sobre sus pasos salvo el tramo corto inevitable entre el Templo de Debod y Plaza de España. El Mesón del Champiñón se reserva para el cierre, porque queda junto al parking y funciona mejor como cerveza y tapa de tarde-noche:
 
 1. Parking y Plaza Mayor.
-2. Mesón del Champiñón, en Cava de San Miguel.
-3. Mercado de San Miguel.
-4. Plaza de la Villa y calles del Madrid de los Austrias.
-5. Catedral de la Almudena, Plaza de la Armería y Mirador de la Cornisa.
-6. Palacio Real.
-7. Plaza de Oriente y Teatro Real.
-8. Ópera, calle Arenal y Puerta del Sol.
-9. Callao y Gourmet Experience de El Corte Inglés.
-10. Gran Vía y Plaza de España.
-11. Templo de Debod.
+2. Mercado de San Miguel.
+3. Plaza de la Villa y calles del Madrid de los Austrias.
+4. Catedral de la Almudena, Plaza de la Armería y Mirador de la Cornisa.
+5. Palacio Real.
+6. Plaza de Oriente y Teatro Real.
+7. Ópera, calle Arenal y Puerta del Sol.
+8. Callao y Gourmet Experience de El Corte Inglés.
+9. Gran Vía y Plaza de España.
+10. Templo de Debod.
+11. Regreso a Plaza Mayor y cierre en el Mesón del Champiñón.
 
-El regreso al parking se documentará dentro de la última parada y en el cierre, con este trazado recomendado:
+El regreso al parking se documentará dentro de Debod y la última parada incluirá el cierre gastronómico en Cava de San Miguel, con este trazado recomendado:
 
-`Templo de Debod → Plaza de España → Leganitos → Santo Domingo → Campomanes → Arrieta → Ópera → Vergara → Ramales → Santiago → Milaneses → Calle Mayor → Plaza Mayor`
+`Templo de Debod → Plaza de España → Leganitos → Santo Domingo → Campomanes → Arrieta → Ópera → Vergara → Ramales → Santiago → Milaneses → Calle Mayor → Plaza Mayor → Arco de Cuchilleros → Cava de San Miguel`
 
 La distancia, duración, pendientes y tiempos de visita deben presentarse como estimaciones, no como una promesa exacta. El plan editorial debe distinguir entre paseo exterior, comida y visita interior del Palacio Real.
 
@@ -213,7 +213,7 @@ El estado mínimo será `{ visited, provider, optional, active }`. Al activar la
 
 - `place`: abrir el punto actual en Google Maps, OsmAnd o `geo:`/copiar coordenadas.
 - `navigate`: abrir navegación peatonal hacia la siguiente parada.
-- `return`: acción específica de la última parada hacia el parking de Plaza Mayor.
+- `return`: acción específica del cierre gastronómico hacia el parking de Plaza Mayor; Debod debe explicar antes el regreso hasta Cava de San Miguel.
 - Conservar `ask` como opción persistente para que el usuario pueda elegir aplicación la primera vez.
 - Verificar que el enlace de Google Maps tenga `travelmode=walking`.
 - El GPX debe contener todos los waypoints visibles en el orden real, incluyendo la Galería si está activa.
@@ -224,8 +224,8 @@ Reutilizar `stopTemplate()` con estos ajustes:
 
 - Etiquetas de parada en español y número visible.
 - El bloque “Siguiente” debe indicar también distancia o tiempo al siguiente punto cuando esté disponible.
-- La última parada debe mostrar “Volver al parking” en vez de “Fin del paseo” sin acción.
-- Añadir detalles específicos para: aperitivo y comida en San Miguel, acceso a la terraza de Callao, atardecer de Debod y regreso.
+- La última parada debe mostrar “Volver al parking” después del cierre en el Mesón, en vez de “Fin del paseo” sin acción.
+- Añadir detalles específicos para: comida en San Miguel, cierre de cerveza y champiñones, acceso a la terraza de Callao, atardecer de Debod y regreso.
 - Sanitizar o mantener estático todo contenido interpolado; no aceptar HTML introducido por el usuario.
 
 ### Interacción y rendimiento
@@ -301,8 +301,8 @@ Los enlaces oficiales deben vivir en cada parada y las fuentes de fotografías e
 ### Contenido y ruta
 
 - La ruta visible coincide con el circuito aprobado y no introduce retrocesos innecesarios.
-- Plaza Mayor, Champiñón, Mercado, Austrias, Almudena, Palacio, Oriente, Sol, Callao, Gran Vía, Plaza de España y Debod aparecen en el orden correcto.
-- La última parada explica el regreso por Leganitos/Santo Domingo/Ópera y permite navegar al parking.
+- Plaza Mayor, Mercado, Austrias, Almudena, Palacio, Oriente, Sol, Callao, Gran Vía, Plaza de España, Debod y el cierre en el Champiñón aparecen en el orden correcto.
+- Debod explica el regreso por Leganitos/Santo Domingo/Ópera hasta Plaza Mayor; el cierre en el Champiñón permite navegar después al parking.
 - Los datos de horarios, precios y accesos llevan fuente o advertencia de verificación.
 
 ### Producto
