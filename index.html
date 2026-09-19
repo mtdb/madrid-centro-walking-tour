@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2ede4" />
+    <meta name="description" content="Walking tour autoguiado por el centro histórico de Madrid: Plaza Mayor, Palacio Real, Sol, Gran Vía y Templo de Debod." />
+    <link rel="icon" href="icons/compass.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Madrid centro · paseo circular a pie</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar" data-topbar>
+        <a class="wordmark" href="#inicio" aria-label="Volver al inicio">
+          <span class="wordmark__mark">M</span>
+          <span>Madrid<br /><small>paseo a pie</small></span>
+        </a>
+        <div class="topbar__status">
+          <span class="topbar__label" data-current-label>Inicio</span>
+          <span class="topbar__progress" data-progress>0 / 11</span>
+        </div>
+        <button class="icon-button" type="button" data-settings aria-label="Abrir opciones de la ruta">⚙</button>
+      </header>
+
+      <main id="inicio">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__media"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20Mayor%20Madrid%20Spain.jpg" alt="Plaza Mayor de Madrid al atardecer" width="1600" height="1067" fetchpriority="high" /></div>
+          <div class="hero__veil"></div>
+          <div class="hero__content">
+            <p class="eyebrow">Guía urbana · Madrid centro</p>
+            <h1 id="hero-title">Del Madrid de los Austrias<br /><em>a la luz de Debod</em></h1>
+            <p class="hero__intro">Un paseo circular para comer, mirar arriba y llegar al atardecer sin repetir la ciudad.</p>
+            <div class="hero__facts" aria-label="Datos de la ruta">
+              <span><strong>5–6</strong> km</span>
+              <span><strong>6–7</strong> horas</span>
+              <span><strong>Circular</strong> ECO</span>
+            </div>
+            <a class="button button--light" href="#parada-1">Empezar la ruta <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero__scroll" aria-hidden="true"><span></span> Desliza para comenzar</div>
+        </section>
+
+        <section class="intro-point" aria-labelledby="intro-title">
+          <div class="intro-point__heading">
+            <p class="eyebrow">Punto 0 · Antes de empezar</p>
+            <h2>Madrid cambia de escala<br /><em>en pocas calles.</em></h2>
+          </div>
+          <div class="intro-point__body">
+            <p>Esta ruta une el corazón del Madrid de los Austrias con la ciudad de los Borbones y el eje moderno de Gran Vía. Empieza junto al parking de Plaza Mayor, atraviesa el Palacio Real y termina en el Templo de Debod, el mejor mirador del paseo cuando cae la tarde.</p>
+            <p><strong>La clave es el orden.</strong> El Champiñón y el Mercado de San Miguel quedan al principio; Sol, Callao y Gran Vía se recorren una sola vez hacia el oeste. Desde Debod se vuelve por Santo Domingo y Ópera, evitando desandar Gran Vía y Arenal.</p>
+            <aside class="intro-point__clarification"><strong>Qué incluye y qué no</strong><p>Las paradas son exteriores y gratuitas salvo comida, bebidas y visitas interiores opcionales. Consulta horarios y entradas del Palacio Real, la Almudena, la Galería y la terraza de Callao antes de salir.</p></aside>
+            <div class="intro-point__facts"><span><strong>5–6 km</strong> caminata estimada</span><span><strong>30–35 min</strong> regreso a Plaza Mayor</span><span><strong>30–45 min</strong> antes del ocaso en Debod</span></div>
+            <aside class="intro-point__curiosity"><strong>Idea de guía</strong><p>Piensa en tres actos: ciudad medieval y comida, palacio y plazas, luego el Madrid moderno hasta el atardecer.</p></aside>
+            <div class="intro-timeline" aria-label="Línea temporal de Madrid">
+              <p class="intro-timeline__title">La ciudad en ocho hitos</p>
+              <ol><li><time>1561</time><span>Madrid, capital</span></li><li><time>1620</time><span>Plaza Mayor</span></li><li><time>1738</time><span>Palacio Real</span></li><li><time>1910</time><span>Gran Vía</span></li><li><time>1919</time><span>Metro y centro moderno</span></li><li><time>1972</time><span>Templo de Debod</span></li><li><time>2009</time><span>Mercado de San Miguel</span></li><li><time>Hoy</time><span>Centro peatonal</span></li></ol>
+            </div>
+            <div class="intro-point__sources"><a href="https://www.esmadrid.com/" target="_blank" rel="noreferrer">Turismo de Madrid ↗</a><a href="https://www.patrimonionacional.es/visita/palacio-real-de-madrid" target="_blank" rel="noreferrer">Patrimonio Nacional ↗</a></div>
+          </div>
+        </section>
+
+        <section class="route-intro" aria-labelledby="route-title">
+          <div><p class="eyebrow">El recorrido</p><h2>Once lugares,<br /><em>un circuito con final dorado.</em></h2></div>
+          <p>Empieza y termina en Plaza Mayor. Sigue el orden: el pequeño desvío del Champiñón y la Plaza de la Villa evita volver sobre tus pasos.<small class="glossary-hint">Pulsa las palabras subrayadas para consultar su significado.</small></p>
+          <button class="button button--outline route-intro__optional" type="button" data-optional-toggle>Añadir Galería de las Colecciones Reales</button>
+        </section>
+
+        <div id="stops" class="stops" data-stops></div>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__title">Madrid, sin prisa.</p>
+        <p>Una guía independiente para caminar, comer algo y llegar a Debod cuando la ciudad se enciende.</p>
+        <div class="footer__links"><button type="button" data-download-gpx>Descargar ruta GPX</button><a href="walking-tour.md">Ver notas editoriales</a></div>
+      </footer>
+    </div>
+
+    <dialog class="map-dialog" data-map-dialog>
+      <form method="dialog" class="map-dialog__card"><button class="map-dialog__close" value="cancel" aria-label="Cerrar">×</button><p class="eyebrow">Preferencias</p><h2>¿Qué mapa quieres usar?</h2><p>Lo guardaremos en este dispositivo. Puedes cambiarlo cuando quieras.</p><div class="provider-options"><button type="button" data-provider="osmand"><span class="provider-icon">⌁</span><span><strong>OsmAnd~</strong><small>Navegación offline</small></span></button><button type="button" data-provider="google"><span class="provider-icon">↗</span><span><strong>Google Maps</strong><small>Rutas peatonales</small></span></button><button type="button" data-provider="ask"><span class="provider-icon">⋯</span><span><strong>Preguntar siempre</strong><small>Elegir en cada parada</small></span></button><button type="button" data-provider="copy"><span class="provider-icon">⌘</span><span><strong>Copiar coordenadas</strong><small>Usar otra aplicación</small></span></button></div></form>
+    </dialog>
+    <dialog class="glossary-dialog" data-glossary-dialog aria-labelledby="glossary-title"><form method="dialog" class="glossary-dialog__card"><button class="glossary-dialog__close" value="cancel" aria-label="Cerrar definición">×</button><p class="eyebrow">Glosario de la ruta</p><h2 id="glossary-title" data-glossary-title></h2><p class="glossary-dialog__definition" data-glossary-definition></p><button class="button button--light glossary-dialog__button" value="cancel">Cerrar</button></form></dialog>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
